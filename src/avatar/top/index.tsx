@@ -2,7 +2,6 @@ import * as React from 'react'
 
 import Eyepatch from './Eyepatch'
 import Hat from './Hat'
-import Helmet from './Helmet'
 import Hijab from './Hijab'
 import LongHairBigHair from './LongHairBigHair'
 import LongHairBob from './LongHairBob'
@@ -46,7 +45,6 @@ export default class Top extends React.Component {
         <NoHair>{children}</NoHair>
         <Eyepatch>{children}</Eyepatch>
         <Hat>{children}</Hat>
-        <Helmet>{children}</Helmet>
         <Hijab>{children}</Hijab>
         <Turban>{children}</Turban>
         <WinterHat1>{children}</WinterHat1>
