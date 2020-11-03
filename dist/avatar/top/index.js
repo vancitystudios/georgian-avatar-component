@@ -16,6 +16,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var Eyepatch_1 = require("./Eyepatch");
 var Hat_1 = require("./Hat");
+var Helmet_1 = require("./Helmet");
 var Hijab_1 = require("./Hijab");
 var LongHairBigHair_1 = require("./LongHairBigHair");
 var LongHairBob_1 = require("./LongHairBob");
@@ -61,6 +62,7 @@ var Top = /** @class */ (function (_super) {
             React.createElement(NoHair_1.default, null, children),
             React.createElement(Eyepatch_1.default, null, children),
             React.createElement(Hat_1.default, null, children),
+            React.createElement(Helmet_1.default, null, children),
             React.createElement(Hijab_1.default, null, children),
             React.createElement(Turban_1.default, null, children),
             React.createElement(WinterHat1_1.default, null, children),
