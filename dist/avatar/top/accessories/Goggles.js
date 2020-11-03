@@ -104,7 +104,7 @@ var Goggles = /** @class */ (function (_super) {
               id: "Goggles",
               mask: "url(#" + mask6 + ")"
             }, React.createElement("g", {
-              transform: "translate(-1.000000, 0.000000)",
+              transform: "translate(1.000000, 0.000000)",
               id: "Group-49"
             }, React.createElement("g", {
               transform: "translate(65.000000, 73.000000)"
