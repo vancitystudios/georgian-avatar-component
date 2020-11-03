@@ -33,8 +33,8 @@ var Goggles = /** @class */ (function (_super) {
         _this.path5 = lodash_1.uniqueId('react-path-');
         _this.path6 = lodash_1.uniqueId('react-path-');
         _this.path7 = lodash_1.uniqueId('react-path-');
-        _this.linearGradient1 = lodash_1.uniqueId('react-linearGradient-');
-        _this.linearGradient2 = lodash_1.uniqueId('react-linearGradient-');
+        _this.linearGradient1 = lodash_1.uniqueId('react-linear-gradient-');
+        _this.linearGradient2 = lodash_1.uniqueId('react-linear-gradient-');
         return _this;
     }
     Goggles.prototype.render = function () {
