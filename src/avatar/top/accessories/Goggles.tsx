@@ -7,8 +7,8 @@ import HairColor from './HairColor'
 
 export default class Goggles extends React.Component {
   static optionValue = 'Goggles'
-  private linearGradient1 = uniqueId('react-linearGradient-')
-  private linearGradient2 = uniqueId('react-linearGradient-')
+  private linearGradient1 = uniqueId('react-linear-gradient-')
+  private linearGradient2 = uniqueId('react-linear-gradient-')
   private mask1 = uniqueId('react-mask-')
   private mask2 = uniqueId('react-mask-')
   private mask3 = uniqueId('react-mask-')
