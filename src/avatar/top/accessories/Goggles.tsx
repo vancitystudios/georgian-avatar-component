@@ -7,8 +7,7 @@ import HairColor from './HairColor'
 
 export default class Goggles extends React.Component {
   static optionValue = 'Goggles'
-  private linearGradient1 = uniqueId('react-linear-gradient-')
-  private linearGradient2 = uniqueId('react-linear-gradient-')
+
   private mask1 = uniqueId('react-mask-')
   private mask2 = uniqueId('react-mask-')
   private mask3 = uniqueId('react-mask-')
@@ -22,10 +21,12 @@ export default class Goggles extends React.Component {
   private path4 = uniqueId('react-path-')
   private path5 = uniqueId('react-path-')
   private path6 = uniqueId('react-path-')
-  private path7 = uniqueId('react-path-') 
+  private path7 = uniqueId('react-path-')
+  private linearGradient1 = uniqueId('react-linear-gradient-')
+  private linearGradient2 = uniqueId('react-linear-gradient-')
 
   render () {
-    const { linearGradient1, linearGradient2, mask1, mask2, mask3, mask4, mask5, mask6, mask7, path1, path2, path3, path4, path5, path6, path7 } = this
+    const { mask1, mask2, mask3, mask4, mask5, mask6, mask7, path1, path2, path3, path4, path5, path6, path7, linearGradient1, linearGradient2 } = this
     return (
       <g id='Top/_Resources/Goggles' strokeWidth='1' fillRule='evenodd'>
         <defs>
