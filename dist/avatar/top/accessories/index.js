@@ -15,6 +15,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var Blank_1 = require("./Blank");
+var Goggles_1 = require("./Goggles");
 var Kurt_1 = require("./Kurt");
 var Prescription01_1 = require("./Prescription01");
 var Prescription02_1 = require("./Prescription02");
@@ -30,6 +31,7 @@ var Accessories = /** @class */ (function (_super) {
     Accessories.prototype.render = function () {
         return (React.createElement(options_1.Selector, { defaultOption: Blank_1.default, option: options_1.AccessoriesOption },
             React.createElement(Blank_1.default, null),
+            React.createElement(Goggles_1.default, null),
             React.createElement(Kurt_1.default, null),
             React.createElement(Prescription01_1.default, null),
             React.createElement(Prescription02_1.default, null),
