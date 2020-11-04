@@ -377,7 +377,7 @@ export class Bear extends React.Component<Props> {
 }
 
 export class CharlieChangemaker extends React.Component<Props> {
-  static optionValue = 'CharlieChangemaker'
+  static optionValue = 'Charlie Changemaker'
 
   render () {
     return (
