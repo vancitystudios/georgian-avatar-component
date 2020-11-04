@@ -348,7 +348,8 @@ var Graphics = /** @class */ (function (_super) {
             //React.createElement(Selena, { maskID: this.props.maskID }),
             //React.createElement(Bear, { maskID: this.props.maskID }),
             //React.createElement(SkullOutline, { maskID: this.props.maskID }),
-            //React.createElement(Skull, { maskID: this.props.maskID })));
+            //React.createElement(Skull, { maskID: this.props.maskID })
+        ));
     };
     return Graphics;
 }(React.Component));
