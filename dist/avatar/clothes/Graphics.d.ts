@@ -6,6 +6,10 @@ export declare class CharlieChangemaker extends React.Component<Props> {
     static optionValue: string;
     render(): JSX.Element;
 }
+export declare class PolicyMaker extends React.Component<Props> {
+    static optionValue: string;
+    render(): JSX.Element;
+}
 export declare class Skull extends React.Component<Props> {
     static optionValue: string;
     render(): JSX.Element;
