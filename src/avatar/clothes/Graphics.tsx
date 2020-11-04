@@ -446,22 +446,22 @@ export class SocialEntrepreneur​ extends React.Component<Props> {
 export default class Graphics extends React.Component<Props> {
   render () {
     return (
-      <Selector option={GraphicOption} defaultOption={Skull}>
-        <Bat maskID={this.props.maskID} />
+      <Selector option={GraphicOption} defaultOption={CharlieChangemaker}>
         <CharlieChangemaker maskID={this.props.maskID} />
         <PolicyMaker maskID={this.props.maskID} />
         <Researcher maskID={this.props.maskID} />
         <SocialEntrepreneur maskID={this.props.maskID} />
-        <Cumbia maskID={this.props.maskID} />
-        <Deer maskID={this.props.maskID} />
-        <Diamond maskID={this.props.maskID} />
-        <Hola maskID={this.props.maskID} />
-        <Pizza maskID={this.props.maskID} />
-        <Resist maskID={this.props.maskID} />
-        <Selena maskID={this.props.maskID} />
-        <Bear maskID={this.props.maskID} />
-        <SkullOutline maskID={this.props.maskID} />
-        <Skull maskID={this.props.maskID} />
+        //<Bat maskID={this.props.maskID} />
+        //<Cumbia maskID={this.props.maskID} />
+        //<Deer maskID={this.props.maskID} />
+        //<Diamond maskID={this.props.maskID} />
+        //<Hola maskID={this.props.maskID} />
+        //<Pizza maskID={this.props.maskID} />
+        //<Resist maskID={this.props.maskID} />
+        //<Selena maskID={this.props.maskID} />
+        //<Bear maskID={this.props.maskID} />
+        //<SkullOutline maskID={this.props.maskID} />
+        //<Skull maskID={this.props.maskID} />
       </Selector>
     )
   }

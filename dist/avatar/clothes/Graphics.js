@@ -333,22 +333,22 @@ var Graphics = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Graphics.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { option: options_1.GraphicOption, defaultOption: Skull },
-            React.createElement(Bat, { maskID: this.props.maskID }),
+        return (React.createElement(options_1.Selector, { option: options_1.GraphicOption, defaultOption: CharlieChangemaker },
             React.createElement(CharlieChangemaker, { maskID: this.props.maskID }),
             React.createElement(PolicyMaker, { maskID: this.props.maskID }),
             React.createElement(Researcher, { maskID: this.props.maskID }),
             React.createElement(SocialEntrepreneur, { maskID: this.props.maskID }),
-            React.createElement(Cumbia, { maskID: this.props.maskID }),
-            React.createElement(Deer, { maskID: this.props.maskID }),
-            React.createElement(Diamond, { maskID: this.props.maskID }),
-            React.createElement(Hola, { maskID: this.props.maskID }),
-            React.createElement(Pizza, { maskID: this.props.maskID }),
-            React.createElement(Resist, { maskID: this.props.maskID }),
-            React.createElement(Selena, { maskID: this.props.maskID }),
-            React.createElement(Bear, { maskID: this.props.maskID }),
-            React.createElement(SkullOutline, { maskID: this.props.maskID }),
-            React.createElement(Skull, { maskID: this.props.maskID })));
+            //React.createElement(Bat, { maskID: this.props.maskID }),
+            //React.createElement(Cumbia, { maskID: this.props.maskID }),
+            //React.createElement(Deer, { maskID: this.props.maskID }),
+            //React.createElement(Diamond, { maskID: this.props.maskID }),
+            //React.createElement(Hola, { maskID: this.props.maskID }),
+            //React.createElement(Pizza, { maskID: this.props.maskID }),
+            //React.createElement(Resist, { maskID: this.props.maskID }),
+            //React.createElement(Selena, { maskID: this.props.maskID }),
+            //React.createElement(Bear, { maskID: this.props.maskID }),
+            //React.createElement(SkullOutline, { maskID: this.props.maskID }),
+            //React.createElement(Skull, { maskID: this.props.maskID })));
     };
     return Graphics;
 }(React.Component));
