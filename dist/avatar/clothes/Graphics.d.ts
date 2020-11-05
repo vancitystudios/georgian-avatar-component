@@ -38,6 +38,10 @@ export declare class SocialInnovator extends React.Component<Props> {
     static optionValue: string;
     render(): JSX.Element;
 }
+export declare class Volunteer extends React.Component<Props> {
+    static optionValue: string;
+    render(): JSX.Element;
+}
 export declare class Skull extends React.Component<Props> {
     static optionValue: string;
     render(): JSX.Element;
