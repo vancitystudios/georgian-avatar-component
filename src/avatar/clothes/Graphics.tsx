@@ -456,6 +456,19 @@ export class Champion​ extends React.Component<Props> {
   }
 }
 
+export class SocialInnovator​ extends React.Component<Props> {
+  static optionValue = 'Social Innovator'
+  render () {
+    return (
+      <g id='Clothing/Graphic/Social-Innovator' mask={`url(#${this.props.maskID})`} fill='#FFFFFF' fillRule='evenodd'>
+        <g transform='translate(77.000000, 58.000000)' id='Fill-31'>
+          <path d='M72,34.5035475 L65.5015198,38 L59,34.5035475 L59,27.5021285 L65.5015198,24 L72,27.5021285 L72,34.5035475 Z M56,25.9971248 L56,35.9971248 L65.0014928,41 L74,35.9971248 L74,25.9971248 L65.0014928,21 L56,25.9971248 Z M35,25.9971248 L35,35.9971248 L44.0119482,41 L53,35.9971248 L53,25.9971248 L44.0119482,21 L35,25.9971248 Z M83,17.5099311 L76.5152154,21 L70,17.5099311 L70,10.5042562 L76.5152154,7 L83,10.5042562 L83,17.5099311 Z M76.0089701,4 L67,8.99712644 L67,19.0028736 L76.0089701,24 L85,19.0028736 L85,8.99712644 L76.0089701,4 Z M64,8.99712644 L54.9985067,4 L46,8.99712644 L46,19.0028736 L54.9985067,24 L64,19.0028736 L64,8.99712644 Z M43,8.99712644 L33.9895436,4 L25,8.99712644 L25,19.0028736 L33.9895436,24 L43,19.0028736 L43,8.99712644 Z'></path>
+        </g>
+      </g>
+    )
+  }
+}
+
 export default class Graphics extends React.Component<Props> {
   render () {
     return (
@@ -465,6 +478,7 @@ export default class Graphics extends React.Component<Props> {
         <PolicyMaker maskID={this.props.maskID} />
         <Researcher maskID={this.props.maskID} />
         <SocialEntrepreneur maskID={this.props.maskID} />
+        <SocialInnovator maskID={this.props.maskID} />
       </Selector>
     )
   }
