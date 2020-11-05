@@ -434,6 +434,29 @@ var Activist = /** @class */ (function (_super) {
 }(React.Component));
 exports.Activist = Activist;
 
+var Intrapreneur = /** @class */ (function (_super) {
+    __extends(Intrapreneur, _super);
+    function Intrapreneur() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Intrapreneur.prototype.render = function () {
+        return (React.createElement("g", {
+              id: "Clothing/Graphic/Intrapreneur",
+              mask: "url(#" + this.props.maskID + ")",
+              fill: "#FFFFFF",
+              fillRule: "evenodd"
+            }, React.createElement("g", {
+              transform: "translate(77.000000, 58.000000)",
+              id: "Fill-35"
+            }, React.createElement("path", {
+              d: "M68.2015968,1 C64.0632069,1 60.6087824,3.94498088 59.677312,7.89702547 L50.322688,7.89702547 C49.3965403,3.94498088 45.9500998,1 41.8010645,1 C36.9387891,1 33,5.02553302 33,9.99825028 C33,14.9655239 36.9387891,18.9883352 41.8010645,18.9883352 C45.9500998,18.9883352 49.3965403,16.0460761 50.322688,12.0940315 L59.677312,12.0940315 C60.1483699,14.1272115 61.3087159,15.8773249 62.8842315,17.1102975 L59.3898869,25.1749725 C58.8762475,25.0824315 58.3546241,25.0116648 57.8143713,25.0116648 C52.9547572,25.0116648 49.0266134,29.0371978 49.0266134,34.0071933 C49.0266134,38.974467 52.9547572,43 57.8143713,43 C62.6606786,43 66.6074518,38.974467 66.6074518,34.0071933 C66.6074518,31.094874 65.2341983,28.5309442 63.1370592,26.8924243 L66.6180971,18.8250275 C67.1477046,18.9257339 67.6746507,18.9883352 68.2015968,18.9883352 C73.0745176,18.9883352 77,14.9655239 77,9.99825028 C77,5.02553302 73.0745176,1 68.2015968,1"
+            }))));
+    };
+    Intrapreneur.optionValue = 'Intrapreneur';
+    return Intrapreneur;
+}(React.Component));
+exports.Intrapreneur = Intrapreneur;
+
 var Graphics = /** @class */ (function (_super) {
     __extends(Graphics, _super);
     function Graphics() {
@@ -445,6 +468,7 @@ var Graphics = /** @class */ (function (_super) {
             React.createElement(Champion, { maskID: this.props.maskID }),
             React.createElement(CharlieChangemaker, { maskID: this.props.maskID }),
             React.createElement(FunderInvestor, { maskID: this.props.maskID }),
+            React.createElement(Intrapreneur, { maskID: this.props.maskID }),
             React.createElement(PolicyMaker, { maskID: this.props.maskID }),
             React.createElement(Researcher, { maskID: this.props.maskID }),
             React.createElement(SocialEntrepreneur, { maskID: this.props.maskID }),
