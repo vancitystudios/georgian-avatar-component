@@ -482,10 +482,24 @@ export class FunderInvestor​ extends React.Component<Props> {
   }
 }
 
+export class Activist​ extends React.Component<Props> {
+  static optionValue = 'Activist'
+  render () {
+    return (
+      <g id='Clothing/Graphic/Activist' mask={`url(#${this.props.maskID})`} fill='#FFFFFF' fillRule='evenodd'>
+        <g transform='translate(77.000000, 58.000000)' id='Fill-21'>
+          <path d='M66.889,16 C66.193,16 65.111,15.4301573 65.111,13.5084798 C65.111,11.591736 66.889,8 66.889,8 L66.889,16 Z M68.3752577,1 C68.3752577,1 63,9.09510236 63,13.3933662 C63,17.6799689 66.2637113,19 68.3661856,19 C70.4731959,19 74,17.6076704 74,13.3840373 C74,9.16273646 68.3752577,1 68.3752577,1 L68.3752577,1 Z M41,21 C40.2170543,21 39,20.346928 39,18.1946504 C39,16.0495233 41,12 41,12 L41,21 Z M42.3511979,4 C42.3511979,4 36,13.4464883 36,18.4588629 C36,23.4712375 39.8550133,25 42.3419698,25 C44.8427684,25 49,23.3705686 49,18.4471572 C49,13.5143813 42.3511979,4 42.3511979,4 L42.3511979,4 Z M55,37 C53.8176353,37 52,36.0490124 52,32.944038 C52,29.8485735 55,24 55,24 L55,37 Z M48,33.3362062 C48,40.7456714 53.6434261,43 57.2823183,43 C60.9118981,43 67,40.6025394 67,33.3266641 C67,26.0555598 57.2916309,12 57.2916309,12 C57.2916309,12 48,25.9410543 48,33.3362062 L48,33.3362062 Z'></path>
+        </g>
+      </g>
+    )
+  }
+}
+
 export default class Graphics extends React.Component<Props> {
   render () {
     return (
       <Selector option={GraphicOption} defaultOption={CharlieChangemaker}>
+        <Activist maskID={this.props.maskID} />
         <Champion maskID={this.props.maskID} />
         <CharlieChangemaker maskID={this.props.maskID} />
         <FunderInvestor maskID={this.props.maskID} />
