@@ -52,7 +52,7 @@ var ShortHairShortRound = /** @class */ (function (_super) {
                     React.createElement(HairColor_1.default, { maskID: mask1 }),
                     this.props.children))));
     };
-    ShortHairShortRound.optionValue = 'ShortHairShortRound';
+    ShortHairShortRound.optionValue = 'Short Hair Short Round';
     return ShortHairShortRound;
 }(React.Component));
 exports.default = ShortHairShortRound;

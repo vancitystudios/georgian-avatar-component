@@ -52,7 +52,7 @@ var ShortHairShaggy = /** @class */ (function (_super) {
                     React.createElement("use", { id: 'Shaggy-Hair', stroke: 'none', fill: '#28354B', fillRule: 'evenodd', transform: 'translate(143.465161, 67.234158) scale(-1, 1) translate(-143.465161, -67.234158) ', xlinkHref: '#' + path1 }),
                     React.createElement(HairColor_1.default, { maskID: mask1 })))));
     };
-    ShortHairShaggy.optionValue = 'ShortHairShaggy';
+    ShortHairShaggy.optionValue = 'Short Hair Shaggy';
     return ShortHairShaggy;
 }(React.Component));
 exports.default = ShortHairShaggy;

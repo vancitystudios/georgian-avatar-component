@@ -44,7 +44,7 @@ var NoHair = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    NoHair.optionValue = 'NoHair';
+    NoHair.optionValue = 'No Hair';
     return NoHair;
 }(React.Component));
 exports.default = NoHair;

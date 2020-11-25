@@ -49,7 +49,7 @@ var LongHairFro = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairFro.optionValue = 'LongHairFro';
+    LongHairFro.optionValue = 'Long Hair Fro';
     return LongHairFro;
 }(React.Component));
 exports.default = LongHairFro;

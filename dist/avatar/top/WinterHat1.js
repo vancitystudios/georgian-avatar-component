@@ -55,7 +55,7 @@ var WinterHat1 = /** @class */ (function (_super) {
                 React.createElement(facialHair_1.default, null),
                 this.props.children)));
     };
-    WinterHat1.optionValue = 'WinterHat1';
+    WinterHat1.optionValue = 'Winter Hat 1';
     return WinterHat1;
 }(React.Component));
 exports.default = WinterHat1;

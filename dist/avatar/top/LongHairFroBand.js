@@ -46,7 +46,7 @@ var LongHairFroBand = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairFroBand.optionValue = 'LongHairFroBand';
+    LongHairFroBand.optionValue = 'Long Hair Fro Band';
     return LongHairFroBand;
 }(React.Component));
 exports.default = LongHairFroBand;

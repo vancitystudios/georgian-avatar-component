@@ -48,7 +48,7 @@ var LongHairNotTooLong = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairNotTooLong.optionValue = 'LongHairNotTooLong';
+    LongHairNotTooLong.optionValue = 'Long Hair Not Too Long';
     return LongHairNotTooLong;
 }(React.Component));
 exports.default = LongHairNotTooLong;

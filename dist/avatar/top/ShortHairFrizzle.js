@@ -52,7 +52,7 @@ var ShortHairFrizzle = /** @class */ (function (_super) {
                     React.createElement(HairColor_1.default, { maskID: mask1 }),
                     this.props.children))));
     };
-    ShortHairFrizzle.optionValue = 'ShortHairFrizzle';
+    ShortHairFrizzle.optionValue = 'Short Hair Frizzle';
     return ShortHairFrizzle;
 }(React.Component));
 exports.default = ShortHairFrizzle;

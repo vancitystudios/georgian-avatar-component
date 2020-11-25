@@ -47,7 +47,7 @@ var LongHairMiaWallace = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairMiaWallace.optionValue = 'LongHairMiaWallace';
+    LongHairMiaWallace.optionValue = 'Long Hair Mia Wallace';
     return LongHairMiaWallace;
 }(React.Component));
 exports.default = LongHairMiaWallace;

@@ -47,7 +47,7 @@ var LongHairStraight = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairStraight.optionValue = 'LongHairStraight';
+    LongHairStraight.optionValue = 'Long Hair Straight';
     return LongHairStraight;
 }(React.Component));
 exports.default = LongHairStraight;

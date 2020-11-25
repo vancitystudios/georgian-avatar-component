@@ -47,7 +47,7 @@ var LongHairCurly = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairCurly.optionValue = 'LongHairCurly';
+    LongHairCurly.optionValue = 'Long Hair Curly';
     return LongHairCurly;
 }(React.Component));
 exports.default = LongHairCurly;

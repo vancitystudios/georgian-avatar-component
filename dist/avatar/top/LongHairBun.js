@@ -45,7 +45,7 @@ var LongHairBun = /** @class */ (function (_super) {
                     React.createElement(HairColor_1.default, { maskID: mask1 }),
                     this.props.children))));
     };
-    LongHairBun.optionValue = 'LongHairBun';
+    LongHairBun.optionValue = 'Long Hair Bun';
     return LongHairBun;
 }(React.Component));
 exports.default = LongHairBun;

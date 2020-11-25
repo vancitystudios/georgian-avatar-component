@@ -49,7 +49,7 @@ var LongHairCurvy = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairCurvy.optionValue = 'LongHairCurvy';
+    LongHairCurvy.optionValue = 'Long Hair Curvy';
     return LongHairCurvy;
 }(React.Component));
 exports.default = LongHairCurvy;

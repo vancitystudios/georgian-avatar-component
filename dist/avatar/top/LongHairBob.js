@@ -46,7 +46,7 @@ var LongHairBob = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairBob.optionValue = 'LongHairBob';
+    LongHairBob.optionValue = 'Long Hair Bob';
     return LongHairBob;
 }(React.Component));
 exports.default = LongHairBob;

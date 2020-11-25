@@ -56,7 +56,7 @@ var LongHairShavedSides = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
     };
-    LongHairShavedSides.optionValue = 'LongHairShavedSides';
+    LongHairShavedSides.optionValue = 'Long Hair Shaved Sides';
     return LongHairShavedSides;
 }(React.Component));
 exports.default = LongHairShavedSides;

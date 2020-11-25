@@ -50,7 +50,7 @@ var LongHairDreads = /** @class */ (function (_super) {
                     this.props.children,
                     React.createElement("g", { id: 'Group-74', strokeWidth: '1', fillRule: 'evenodd', transform: 'translate(44.000000, 33.000000)' })))));
     };
-    LongHairDreads.optionValue = 'LongHairDreads';
+    LongHairDreads.optionValue = 'Long Hair Dreads';
     return LongHairDreads;
 }(React.Component));
 exports.default = LongHairDreads;
