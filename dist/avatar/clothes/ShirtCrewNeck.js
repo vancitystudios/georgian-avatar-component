@@ -37,7 +37,7 @@ var ShirtCrewNeck = /** @class */ (function (_super) {
                 React.createElement("g", { transform: 'translate(92.000000, 4.000000)', id: 'Hola-\uD83D\uDC4B\uD83C\uDFFC' },
                     React.createElement("ellipse", { cx: '40.5', cy: '27.8476251', rx: '39.6351047', ry: '26.9138272' })))));
     };
-    ShirtCrewNeck.optionValue = 'ShirtCrewNeck';
+    ShirtCrewNeck.optionValue = 'Shirt Crew Neck';
     return ShirtCrewNeck;
 }(React.Component));
 exports.default = ShirtCrewNeck;

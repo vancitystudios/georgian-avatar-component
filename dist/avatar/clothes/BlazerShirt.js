@@ -44,7 +44,7 @@ var BlazerShirt = /** @class */ (function (_super) {
                 React.createElement("path", { d: 'M69,1.13686838e-13 C65,19.3333333 66.6666667,46.6666667 74,82 L58,82 L44,46 L50,37 L44,31 L63,1 C65.027659,0.369238637 67.027659,0.0359053037 69,1.13686838e-13 Z', id: 'Wing', fill: '#2F4351' }),
                 React.createElement("path", { d: 'M151,1.13686838e-13 C147,19.3333333 148.666667,46.6666667 156,82 L140,82 L126,46 L132,37 L126,31 L145,1 C147.027659,0.369238637 149.027659,0.0359053037 151,1.13686838e-13 Z', id: 'Wing', fill: '#2F4351', transform: 'translate(141.000000, 41.000000) scale(-1, 1) translate(-141.000000, -41.000000) ' }))));
     };
-    BlazerShirt.optionValue = 'BlazerShirt';
+    BlazerShirt.optionValue = 'Blazer Shirt';
     return BlazerShirt;
 }(React.Component));
 exports.default = BlazerShirt;

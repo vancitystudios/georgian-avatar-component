@@ -34,7 +34,7 @@ var ShirtScoopNeck = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Clothes', fill: '#E6E6E6', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    ShirtScoopNeck.optionValue = 'ShirtScoopNeck';
+    ShirtScoopNeck.optionValue = 'Shirt Scoop Neck';
     return ShirtScoopNeck;
 }(React.Component));
 exports.default = ShirtScoopNeck;

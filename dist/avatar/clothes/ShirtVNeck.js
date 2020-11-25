@@ -34,7 +34,7 @@ var ShirtVNeck = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Clothes', fill: '#E6E6E6', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    ShirtVNeck.optionValue = 'ShirtVNeck';
+    ShirtVNeck.optionValue = 'Shirt V Neck';
     return ShirtVNeck;
 }(React.Component));
 exports.default = ShirtVNeck;
