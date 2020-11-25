@@ -34,7 +34,7 @@ var MoustacheFancy = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Moustache-U-a-Question', fill: '#28354B', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    MoustacheFancy.optionValue = 'MoustacheFancy';
+    MoustacheFancy.optionValue = 'Moustache Fancy';
     return MoustacheFancy;
 }(React.Component));
 exports.default = MoustacheFancy;

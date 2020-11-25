@@ -34,7 +34,7 @@ var BeardMedium = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Beardness', fill: '#252E32', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    BeardMedium.optionValue = 'BeardMedium';
+    BeardMedium.optionValue = 'Beard Medium';
     return BeardMedium;
 }(React.Component));
 exports.default = BeardMedium;

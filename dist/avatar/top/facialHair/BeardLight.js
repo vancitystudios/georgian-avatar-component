@@ -34,7 +34,7 @@ var BeardLight = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Lite-Beard', fill: '#331B0C', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    BeardLight.optionValue = 'BeardLight';
+    BeardLight.optionValue = 'Beard Light';
     return BeardLight;
 }(React.Component));
 exports.default = BeardLight;

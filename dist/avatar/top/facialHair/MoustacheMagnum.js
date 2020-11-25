@@ -34,7 +34,7 @@ var MoustacheMagnum = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Hey...', fill: '#28354B', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    MoustacheMagnum.optionValue = 'MoustacheMagnum';
+    MoustacheMagnum.optionValue = 'Moustache Magnum';
     return MoustacheMagnum;
 }(React.Component));
 exports.default = MoustacheMagnum;

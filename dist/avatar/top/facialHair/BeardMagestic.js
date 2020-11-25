@@ -34,7 +34,7 @@ var BeardMagestic = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Glorious-Beard', fill: '#5E7AA9', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 })));
     };
-    BeardMagestic.optionValue = 'BeardMagestic';
+    BeardMagestic.optionValue = 'Beard Magestic';
     return BeardMagestic;
 }(React.Component));
 exports.default = BeardMagestic;
