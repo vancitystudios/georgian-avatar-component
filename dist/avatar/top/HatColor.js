@@ -33,17 +33,17 @@ function makeColor(name, color) {
     return anyComponent;
 }
 var Black = makeColor('Black', '#262E33');
-var Blue01 = makeColor('Blue01', '#65C9FF');
-var Blue02 = makeColor('Blue02', '#5199E4');
-var Blue03 = makeColor('Blue03', '#25557C');
-var Gray01 = makeColor('Gray01', '#E6E6E6');
-var Gray02 = makeColor('Gray02', '#929598');
+var Blue01 = makeColor('Blue 01', '#65C9FF');
+var Blue02 = makeColor('Blue 02', '#5199E4');
+var Blue03 = makeColor('Blue 03', '#25557C');
+var Gray01 = makeColor('Gray 01', '#E6E6E6');
+var Gray02 = makeColor('Gray 02', '#929598');
 var Heather = makeColor('Heather', '#3C4F5C');
-var PastelBlue = makeColor('PastelBlue', '#B1E2FF');
-var PastelGreen = makeColor('PastelGreen', '#A7FFC4');
-var PastelOrange = makeColor('PastelOrange', '#FFDEB5');
-var PastelRed = makeColor('PastelRed', '#FFAFB9');
-var PastelYellow = makeColor('PastelYellow', '#FFFFB1');
+var PastelBlue = makeColor('Pastel Blue', '#B1E2FF');
+var PastelGreen = makeColor('Pastel Green', '#A7FFC4');
+var PastelOrange = makeColor('Pastel Orange', '#FFDEB5');
+var PastelRed = makeColor('Pastel Red', '#FFAFB9');
+var PastelYellow = makeColor('Pastel Yellow', '#FFFFB1');
 var Pink = makeColor('Pink', '#FF488E');
 var Red = makeColor('Red', '#FF5C5C');
 var White = makeColor('White', '#FFFFFF');
