@@ -26,7 +26,7 @@ var EyeRoll = /** @class */ (function (_super) {
             React.createElement("circle", { id: 'Eye', fillOpacity: '0.699999988', fill: '#000000', cx: '30', cy: '14', r: '6' }),
             React.createElement("circle", { id: 'Eye', fillOpacity: '0.699999988', fill: '#000000', cx: '82', cy: '14', r: '6' })));
     };
-    EyeRoll.optionValue = 'EyeRoll';
+    EyeRoll.optionValue = 'Eye Roll';
     return EyeRoll;
 }(React.Component));
 exports.default = EyeRoll;
