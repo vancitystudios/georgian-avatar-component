@@ -260,7 +260,7 @@ var Goggles = /** @class */ (function (_super) {
               fill: "#131D1C"
             }))))));
     };
-    Goggles.optionValue = 'Goggles';
+    Goggles.optionValue = 'Charlie Goggles';
     return Goggles;
 }(React.Component));
 exports.default = Goggles;

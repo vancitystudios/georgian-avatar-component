@@ -128,7 +128,7 @@ var Helmet = /** @class */ (function (_super) {
               fill: "#F15A24"
             })), React.createElement(facialHair_1.default, null), this.props.children))));
     };
-    Helmet.optionValue = 'Helmet';
+    Helmet.optionValue = 'Charlie Helmet';
     return Helmet;
 }(React.Component));
 exports.default = Helmet;

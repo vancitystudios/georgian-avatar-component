@@ -36,7 +36,7 @@ var GraphicShirt = /** @class */ (function (_super) {
             React.createElement(Colors_1.default, { maskID: mask1 }),
             React.createElement(Graphics_1.default, { maskID: mask1 })));
     };
-    GraphicShirt.optionValue = 'GraphicShirt';
+    GraphicShirt.optionValue = 'Changemaker Shirt';
     return GraphicShirt;
 }(React.Component));
 exports.default = GraphicShirt;
