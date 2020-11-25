@@ -38,7 +38,7 @@ var Yellow = makeColor('Yellow', '#F8D25C');
 var Pale = makeColor('Pale', '#FFDBB4');
 var Light = makeColor('Light', '#EDB98A');
 var Brown = makeColor('Brown', '#D08B5B');
-var DarkBrown = makeColor('DarkBrown', '#AE5D29');
+var DarkBrown = makeColor('Dark Brown', '#AE5D29');
 var Black = makeColor('Black', '#614335');
 var Skin = /** @class */ (function (_super) {
     __extends(Skin, _super);
