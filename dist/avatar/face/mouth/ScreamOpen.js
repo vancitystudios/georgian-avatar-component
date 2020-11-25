@@ -37,7 +37,7 @@ var ScreamOpen = /** @class */ (function (_super) {
                     React.createElement("circle", { cx: '11', cy: '11', r: '11' }),
                     React.createElement("circle", { cx: '21', cy: '11', r: '11' })))));
     };
-    ScreamOpen.optionValue = 'ScreamOpen';
+    ScreamOpen.optionValue = 'Scream Open';
     return ScreamOpen;
 }(React.Component));
 exports.default = ScreamOpen;
