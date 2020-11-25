@@ -36,13 +36,13 @@ function makeColor(name, color) {
 var Auburn = makeColor('Auburn', '#A55728');
 var Black = makeColor('Black', '#2C1B18');
 var Blonde = makeColor('Blonde', '#B58143');
-var BlondeGolden = makeColor('BlondeGolden', '#D6B370');
+var BlondeGolden = makeColor('Blonde Golden', '#D6B370');
 var Brown = makeColor('Brown', '#724133');
-var BrownDark = makeColor('BrownDark', '#4A312C');
-var PastelPink = makeColor('PastelPink', '#F59797');
+var BrownDark = makeColor('Brown Dark', '#4A312C');
+var PastelPink = makeColor('Pastel Pink', '#F59797');
 var Platinum = makeColor('Platinum', '#ECDCBF');
 var Red = makeColor('Red', '#C93305');
-var SilverGray = makeColor('SilverGray', '#E8E1E1');
+var SilverGray = makeColor('Silver Gray', '#E8E1E1');
 var HairColor = /** @class */ (function (_super) {
     __extends(HairColor, _super);
     function HairColor() {
