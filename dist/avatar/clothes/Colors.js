@@ -51,7 +51,7 @@ var Colors = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Colors.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { option: options_1.ClotheColorOption, defaultOption: Gray01 },
+        return (React.createElement(options_1.Selector, { option: options_1.ClotheColorOption, defaultOption: Black },
             React.createElement(Black, { maskID: this.props.maskID }),
             React.createElement(Orange, { maskID: this.props.maskID }),
             React.createElement(GBlue, { maskID: this.props.maskID }),

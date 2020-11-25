@@ -29,7 +29,7 @@ var Accessories = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Accessories.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { defaultOption: Blank_1.default, option: options_1.AccessoriesOption },
+        return (React.createElement(options_1.Selector, { defaultOption: Goggles_1.default, option: options_1.AccessoriesOption },
             React.createElement(Blank_1.default, null),
             React.createElement(Goggles_1.default, null),
             React.createElement(Kurt_1.default, null),

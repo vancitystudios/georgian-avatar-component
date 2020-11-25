@@ -30,7 +30,7 @@ var Clothes = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Clothes.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { option: options_1.ClotheOption, defaultOption: BlazerShirt_1.default },
+        return (React.createElement(options_1.Selector, { option: options_1.ClotheOption, defaultOption: GraphicShirt_1.default },
             React.createElement(BlazerShirt_1.default, null),
             React.createElement(BlazerSweater_1.default, null),
             React.createElement(CollarSweater_1.default, null),
