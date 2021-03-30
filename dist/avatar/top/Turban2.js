@@ -17,8 +17,8 @@ var React = require("react");
 var lodash_1 = require("lodash");
 var facialHair_1 = require("./facialHair");
 var HatColor_1 = require("./HatColor");
-var Turban = /** @class */ (function (_super) {
-    __extends(Turban, _super);
+var Turban2 = /** @class */ (function (_super) {
+    __extends(Turban2, _super);
     function Turban() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.mask1 = lodash_1.uniqueId('react-mask-');
@@ -27,7 +27,7 @@ var Turban = /** @class */ (function (_super) {
         _this.path2 = lodash_1.uniqueId('react-path-');
         return _this;
     }
-    Turban.prototype.render = function () {
+    Turban2.prototype.render = function () {
         var _a = this, mask1 = _a.mask1, mask2 = _a.mask2, path1 = _a.path1, path2 = _a.path2;
         return (
         
@@ -92,11 +92,11 @@ var Turban = /** @class */ (function (_super) {
               fill: "#000000",
               opacity: "0.899999976",
               transform: "translate(70.997383, 30.952805) rotate(-180.000000) translate(-70.997383, -30.952805) "
-            })))));
+            })), React.createElement(facialHair_1.default, null), this.props.children)));
         
         );
     };
-    Turban.optionValue = 'Turban';
-    return Turban;
+    Turban2.optionValue = 'Turban2';
+    return Turban2;
 }(React.Component));
-exports.default = Turban;
+exports.default = Turban2;
