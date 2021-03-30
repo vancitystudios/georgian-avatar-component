@@ -92,7 +92,7 @@ var Turban2 = /** @class */ (function (_super) {
               fill: "#000000",
               opacity: "0.899999976",
               transform: "translate(70.997383, 30.952805) rotate(-180.000000) translate(-70.997383, -30.952805)"
-            })), this.props.children)));
+            })), this.props.children)))
         
         );
     };
