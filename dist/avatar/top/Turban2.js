@@ -96,7 +96,7 @@ var Turban2 = /** @class */ (function (_super) {
         
         );
     };
-    Turban2.optionValue = 'Turban2';
+    Turban2.optionValue = 'Turban 2';
     return Turban2;
 }(React.Component));
 exports.default = Turban2;
