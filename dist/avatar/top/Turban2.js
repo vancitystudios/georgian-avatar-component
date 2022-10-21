@@ -70,10 +70,8 @@ var Turban2 = /** @class */ (function (_super) {
               id: "Turban-Mask",
               fill: "#124C74",
               xlinkHref: '#' + path2
-            }), React.createElement("g", {
-              id: "Group",
-              mask: `url(#${mask2})`
-            }, React.createElement("g", {
+            }), React.createElement("g", { id: "Group", mask: "url(#" + mask2 + ")" },
+            React.createElement("g", {
               transform: "translate(-56.000000, -3.000000)",
               id: "\u21B3-\uD83C\uDFA8Turban-Color"
             }, React.createElement("rect", {
