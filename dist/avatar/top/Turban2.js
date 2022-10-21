@@ -51,11 +51,8 @@ var Turban2 = /** @class */ (function (_super) {
               xlinkHref: '#' + path1
             })), React.createElement("g", {
               id: "Mask"
-            }), React.createElement("g", {
-              id: "Top/Accesories/Turban-2",
-              //mask: `url(#${mask1})`
-              mask: "url(#" + mask1 + ")"
-            }, React.createElement("g", {
+            }), React.createElement("g", { id: "Top/Accesories/Turban-2", mask: "url(#" + mask1 + ")" },
+            React.createElement("g", {
               transform: "translate(-1.000000, 0.000000)"
             }, React.createElement("g", {
               id: "Turban-2",
